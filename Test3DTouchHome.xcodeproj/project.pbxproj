@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA76E4F71D38F27200F8C23A /* IvyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA76E4F51D38F27200F8C23A /* IvyViewController.m */; };
+		CA76E4F81D38F27200F8C23A /* IvyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA76E4F61D38F27200F8C23A /* IvyViewController.xib */; };
 		CA8706761C9BFFBE003DE738 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8706751C9BFFBE003DE738 /* main.m */; };
 		CA8706791C9BFFBE003DE738 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8706781C9BFFBE003DE738 /* AppDelegate.m */; };
 		CA87067C1C9BFFBE003DE738 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA87067B1C9BFFBE003DE738 /* ViewController.m */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA76E4F41D38F27200F8C23A /* IvyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvyViewController.h; sourceTree = "<group>"; };
+		CA76E4F51D38F27200F8C23A /* IvyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IvyViewController.m; sourceTree = "<group>"; };
+		CA76E4F61D38F27200F8C23A /* IvyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IvyViewController.xib; sourceTree = "<group>"; };
 		CA8706711C9BFFBE003DE738 /* Test3DTouchHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test3DTouchHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8706751C9BFFBE003DE738 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA8706771C9BFFBE003DE738 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +106,9 @@
 		CA8706731C9BFFBE003DE738 /* Test3DTouchHome */ = {
 			isa = PBXGroup;
 			children = (
+				CA76E4F41D38F27200F8C23A /* IvyViewController.h */,
+				CA76E4F51D38F27200F8C23A /* IvyViewController.m */,
+				CA76E4F61D38F27200F8C23A /* IvyViewController.xib */,
 				CA8706771C9BFFBE003DE738 /* AppDelegate.h */,
 				CA8706781C9BFFBE003DE738 /* AppDelegate.m */,
 				CA87067A1C9BFFBE003DE738 /* ViewController.h */,
@@ -207,6 +215,7 @@
 				TargetAttributes = {
 					CA8706701C9BFFBE003DE738 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5B4T5TDHKM;
 					};
 					CA8706891C9BFFBE003DE738 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -244,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA8706841C9BFFBE003DE738 /* LaunchScreen.storyboard in Resources */,
+				CA76E4F81D38F27200F8C23A /* IvyViewController.xib in Resources */,
 				CA8706811C9BFFBE003DE738 /* Assets.xcassets in Resources */,
 				CA87067F1C9BFFBE003DE738 /* Main.storyboard in Resources */,
 			);
@@ -271,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA87067C1C9BFFBE003DE738 /* ViewController.m in Sources */,
+				CA76E4F71D38F27200F8C23A /* IvyViewController.m in Sources */,
 				CA8706791C9BFFBE003DE738 /* AppDelegate.m in Sources */,
 				CA8706761C9BFFBE003DE738 /* main.m in Sources */,
 			);
@@ -413,9 +424,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Baocai Du (896QED3HLA)";
 				INFOPLIST_FILE = Test3DTouchHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ivy.use.com.Test3DTouchHome;
+				PRODUCT_BUNDLE_IDENTIFIER = ivy.own.use;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -424,9 +436,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Baocai Du (896QED3HLA)";
 				INFOPLIST_FILE = Test3DTouchHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ivy.use.com.Test3DTouchHome;
+				PRODUCT_BUNDLE_IDENTIFIER = ivy.own.use;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -498,6 +511,7 @@
 				CA8706A01C9BFFBE003DE738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA8706A11C9BFFBE003DE738 /* Build configuration list for PBXNativeTarget "Test3DTouchHomeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +520,7 @@
 				CA8706A31C9BFFBE003DE738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA8706A41C9BFFBE003DE738 /* Build configuration list for PBXNativeTarget "Test3DTouchHomeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +529,7 @@
 				CA8706A61C9BFFBE003DE738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

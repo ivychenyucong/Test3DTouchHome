@@ -1,30 +1,30 @@
 //
-//  ViewController.m
+//  IvyViewController.m
 //  Test3DTouchHome
 //
-//  Created by Ivy on 16/3/18.
-//  Copyright © 2016年 Ivy. All rights reserved.
+//  Created by IvyChen on 7/15/16.
+//  Copyright © 2016 Ivy. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "IvyViewController.h"
 
-@interface ViewController ()
+@interface IvyViewController ()
 
 @end
 
-@implementation ViewController
+@implementation IvyViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
-   // [self addDynamicIcon];
+    // Do any additional setup after loading the view from its nib.
+    [self addDynamicIcon];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 -(void) addDynamicIcon{
     UIApplicationShortcutIcon * icon = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypePlay];
@@ -34,4 +34,15 @@
     
     [UIApplication sharedApplication].shortcutItems = @[item];
 }
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
 @end
